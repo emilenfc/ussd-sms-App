@@ -1,0 +1,30 @@
+{
+  "name": "africastalking-sms-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "nodemon --exec ts-node ./src/index.ts",
+    "ngrok": "ngrok http 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "africastalking-ts": "^0.0.3",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "nodemon": "^3.0.1",
+    "ussd-menu-builder": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/lodash": "^4.14.195",
+    "@types/node": "^20.4.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
